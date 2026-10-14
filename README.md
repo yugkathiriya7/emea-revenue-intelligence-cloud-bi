@@ -23,5 +23,18 @@ Python, Pandas, Google Cloud BigQuery, SQL, Google Colab, Google Sheets, Data St
 ## Dashboard
 The dashboard includes revenue KPIs, actual-versus-plan trends, cluster comparisons, account performance and interactive filtering.
 
+## Interactive BI Dashboard
+
+![EMEA Revenue Intelligence Dashboard](Dashboard.png)
+
+The dashboard includes:
+- Actual versus planned revenue trends
+- Revenue performance by EMEA cluster
+- Strategic account rankings and target attainment
+- Interactive cluster filtering
+
+Note: Dashboard data comes from a Google Sheets
+snapshot exported from BigQuery.
+
 ## Limitations
 This is an educational batch-processing prototype using entirely synthetic data. The dashboard is connected to an exported Google Sheets snapshot rather than a live BigQuery connection. Production scheduling, access controls and monitoring are future enhancements.
